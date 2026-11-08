@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-11-08
 ---
 
 # Morning digest
@@ -77,3 +78,21 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Review and cleanup
+
+The reviewer saw the submitted preview. After review, the marker was removed from the same
+public URL: https://mega-s01e04-rig-8du.pages.dev/.
+
+## Issues
+
+| # | Issue | URL |
+|---|---|---|
+| 1 | Commit the digest contract | https://github.com/marcingasior/mega-s01e04-rig/issues/1 |
+| 2 | Read and aggregate nightly run logs | https://github.com/marcingasior/mega-s01e04-rig/issues/2 |
+| 3 | Render the digest page | https://github.com/marcingasior/mega-s01e04-rig/issues/3 |
+| 4 | Serve digest JSON | https://github.com/marcingasior/mega-s01e04-rig/issues/4 |
+| 5 | Link nights from the status board | https://github.com/marcingasior/mega-s01e04-rig/issues/5 |
+| 6 | Test digest routes | https://github.com/marcingasior/mega-s01e04-rig/issues/6 |
+| 7 | Publish and submit the review preview | https://github.com/marcingasior/mega-s01e04-rig/issues/7 |
+| 8 | Remove the preview marker and archive the plan | https://github.com/marcingasior/mega-s01e04-rig/issues/8 |
