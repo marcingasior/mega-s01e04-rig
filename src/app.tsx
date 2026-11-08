@@ -3,7 +3,6 @@ import { loadConfig, type RigConfig } from './config.js';
 import { readNight } from './digest/read-night.js';
 import { lane } from './lane.js';
 import { readStatus } from './status.js';
-import { readNight } from './digest/read-night.js';
 import { Layout } from './views/layout.js';
 import { DigestMissing, DigestPage } from './views/digest.js';
 import { StatusBoard } from './views/status.js';
